@@ -4,7 +4,7 @@ pipeline{
         agent { label 'node1' }
         stage("Ansible-deploy"){
             steps{
-			   echo 'Ansibleplaybook'
+			   echo 'Ansibleplaybook1'
 			   sh 'ansible-playbook tom.yml'
             }
         }
